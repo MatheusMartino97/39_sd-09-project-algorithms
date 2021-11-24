@@ -4,7 +4,7 @@ from helpers.find_duplicate_helper import sanitize_list_to_single_value
 def get_duplicate_and_validate(nums):
     numbers_set = []
     duplicated_numbers = []
-    
+
     for num in nums:
         if isinstance(num, str) or num < 0:
             return False
@@ -24,4 +24,3 @@ def find_duplicate(nums):
     duplcated_numbers = get_duplicate_and_validate(nums)
 
     return duplcated_numbers
-
