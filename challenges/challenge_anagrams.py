@@ -1,5 +1,6 @@
 from helpers.anagrams_helper import sort_word
 
+
 def is_anagram(first_string, second_string):
     if not first_string or not second_string:
         return False
