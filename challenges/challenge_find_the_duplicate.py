@@ -21,6 +21,6 @@ def find_duplicate(nums):
     if len(nums) <= 1:
         return False
 
-    duplcated_numbers = get_duplicate_and_validate(nums)
+    duplicated_numbers = get_duplicate_and_validate(nums)
 
-    return duplcated_numbers
+    return duplicated_numbers
