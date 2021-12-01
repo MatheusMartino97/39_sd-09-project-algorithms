@@ -5,12 +5,12 @@ def sort_word(word):
     while has_swapped:
         has_swapped = False
 
-        for i in range(len(array) - num_of_iterations - 1):
-            if array[i] > array[i + 1]:
-                array[i], array[i + 1] = array[i + 1], array[i]
+        for i in range(len(word) - num_of_iterations - 1):
+            if word[i] > word[i + 1]:
+                word[i], word[i + 1] = word[i + 1], word[i]
                 has_swapped = True
         num_of_iterations += 1
 
-    return array
+    return word
 
     #Baseado no bubble sort do course Bloco 35 - Algoritmos
