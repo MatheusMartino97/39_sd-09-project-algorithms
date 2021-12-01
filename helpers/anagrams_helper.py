@@ -14,4 +14,4 @@ def sort_word(word):
     return word
 
 
-    #Baseado no bubble sort do course Bloco 35 - Algoritmos
+    # Baseado no bubble sort do course Bloco 35 - Algoritmos
